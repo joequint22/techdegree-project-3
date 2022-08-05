@@ -144,7 +144,7 @@ select option:nth-child(1) {
     opacity: 50%;
 }
 
-.col-2 button {
+.col-2 .button {
     margin: 2rem 0;
     height: 60px;
     border: none;
@@ -170,7 +170,7 @@ select option:nth-child(1) {
 }
 
 
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 768px) {
 
     .form,
     .intro-container{
@@ -193,7 +193,7 @@ select option:nth-child(1) {
         width: 526px;
     }
     #zip{
-        width: 263px;
+        width: 131.5px;
     }
     
 }

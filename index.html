@@ -32,9 +32,7 @@
             <h2>Signup for our newsletter</h2>
             <p class="hint">Get the latest news on how your code is doing right in your inbox</p>
             <hr class="line1">
-            </hr>
             <hr class="line2">
-            </hr>
         </div>
 
         <!--Form-->
@@ -59,7 +57,7 @@
                 </div>
                 <div>
                     <label for="address1">Street Address</label>
-                    <input class="hover" type="text" id="address1" name="user_address1" placeholder="Required" requied>
+                    <input class="hover" type="text" id="address1" name="user_address1" placeholder="Required" required>
                 </div>
                 <div>
                     <label for="city">City</label>
@@ -171,7 +169,8 @@
                 <label class="hint" for="comment">Other topics you'd like to hear about</label>
                 <textarea class="hover" name="user_comment" id="comment" cols="30" rows="10" placeholder="Comment here..."></textarea>
 
-                <button>Sign Up</button>
+                <label for="btn"></label>
+                <input class="button" type="submit" id="btn">
             </fieldset>
         </form>
     </main>
