@@ -189,6 +189,7 @@ select option:nth-child(1) {
     .col-1 div{
         display: flex;
         flex-direction: row;
+        /*Taking away the justify-content: space-between allowed you to reconstruct the form to align on the left*/
 
     }
     .col-1 div label{
